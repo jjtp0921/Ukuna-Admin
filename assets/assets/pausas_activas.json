@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "pausas": [
+    {
+      "id": "estiramiento_cuello",
+      "titulo": "Estira tu cuello",
+      "descripcion": "Mueve la cabeza despacito de un lado a otro, 5 veces a cada lado. Sin prisa.",
+      "emoji": "🦒",
+      "duracionSegundos": 60,
+      "categoria": "estiramiento"
+    },
+    {
+      "id": "respiracion_burbuja",
+      "titulo": "Respira como burbuja",
+      "descripcion": "Inhala 4 segundos, mantén 4, exhala 4. Repite 5 veces. Imagina que inflas una burbuja gigante.",
+      "emoji": "🫧",
+      "duracionSegundos": 90,
+      "categoria": "respiracion"
+    },
+    {
+      "id": "descanso_ojos",
+      "titulo": "Descansa tus ojitos",
+      "descripcion": "Mira por la ventana algo lejos durante 20 segundos. Luego parpadea fuerte 10 veces.",
+      "emoji": "👀",
+      "duracionSegundos": 60,
+      "categoria": "vista"
+    },
+    {
+      "id": "saltos_ranita",
+      "titulo": "Saltos de ranita",
+      "descripcion": "Da 10 saltos como una rana. ¡Croak croak! Sentirás más energía.",
+      "emoji": "🐸",
+      "duracionSegundos": 45,
+      "categoria": "movimiento"
+    },
+    {
+      "id": "estiramiento_brazos",
+      "titulo": "Brazos al cielo",
+      "descripcion": "Estira los brazos hacia arriba como si tocaras las nubes, cuenta hasta 10 y baja.",
+      "emoji": "🌤️",
+      "duracionSegundos": 45,
+      "categoria": "estiramiento"
+    },
+    {
+      "id": "tomar_agua",
+      "titulo": "Bebe agua",
+      "descripcion": "Ve por un vaso de agua y bébelo despacito. Tu cuerpo te lo agradecerá.",
+      "emoji": "💧",
+      "duracionSegundos": 90,
+      "categoria": "hidratacion"
+    },
+    {
+      "id": "baile_corto",
+      "titulo": "Baila tu canción favorita",
+      "descripcion": "Pon tu canción favorita y baila por 1 minuto. ¡Sin pena, suelta el cuerpo!",
+      "emoji": "💃",
+      "duracionSegundos": 90,
+      "categoria": "movimiento"
+    },
+    {
+      "id": "abrazos_familia",
+      "titulo": "Abrazo de cariño",
+      "descripcion": "Busca a alguien de tu familia y dale un abrazo grande. Los abrazos recargan energía.",
+      "emoji": "🤗",
+      "duracionSegundos": 60,
+      "categoria": "social"
+    },
+    {
+      "id": "mirar_cielo",
+      "titulo": "Mira al cielo",
+      "descripcion": "Asómate a una ventana y mira las nubes o las estrellas durante un minuto.",
+      "emoji": "☁️",
+      "duracionSegundos": 60,
+      "categoria": "vista"
+    },
+    {
+      "id": "manos_arriba_abajo",
+      "titulo": "Sacude las manos",
+      "descripcion": "Sacude las manos como si tuvieran agua, primero arriba y luego abajo. 30 segundos.",
+      "emoji": "✋",
+      "duracionSegundos": 45,
+      "categoria": "movimiento"
+    },
+    {
+      "id": "sonrie_tres_veces",
+      "titulo": "Sonríe tres veces",
+      "descripcion": "Sonríe muy grande tres veces. Aunque parezca tonto, ¡tu cerebro lo agradece!",
+      "emoji": "😄",
+      "duracionSegundos": 30,
+      "categoria": "estado_animo"
+    },
+    {
+      "id": "caminar_corto",
+      "titulo": "Camina un poquito",
+      "descripcion": "Levántate y camina por toda la casa durante 2 minutos. Tus piernas necesitan moverse.",
+      "emoji": "🚶",
+      "duracionSegundos": 120,
+      "categoria": "movimiento"
+    },
+    {
+      "id": "dibujar_libre",
+      "titulo": "Dibuja algo lindo",
+      "descripcion": "Toma papel y lápiz y dibuja lo primero que te venga a la mente.",
+      "emoji": "🎨",
+      "duracionSegundos": 180,
+      "categoria": "creatividad"
+    }
+  ]
+}

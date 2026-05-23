@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4fc3f7"/>
+      <stop offset="55%" stop-color="#81d4fa"/>
+      <stop offset="100%" stop-color="#b3e5fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#cielo)"/>
+  <!-- Sol -->
+  <circle cx="60" cy="70" r="45" fill="#fff176"/>
+  <circle cx="60" cy="70" r="35" fill="#ffee58"/>
+  <!-- Rayos del sol -->
+  <line x1="60" y1="15" x2="60" y2="5" stroke="#ffee58" stroke-width="3" stroke-linecap="round"/>
+  <line x1="100" y1="30" x2="108" y2="22" stroke="#ffee58" stroke-width="3" stroke-linecap="round"/>
+  <line x1="115" y1="70" x2="125" y2="70" stroke="#ffee58" stroke-width="3" stroke-linecap="round"/>
+  <line x1="100" y1="110" x2="108" y2="118" stroke="#ffee58" stroke-width="3" stroke-linecap="round"/>
+  <line x1="20" y1="110" x2="12" y2="118" stroke="#ffee58" stroke-width="3" stroke-linecap="round"/>
+  <line x1="5" y1="70" x2="-5" y2="70" stroke="#ffee58" stroke-width="3" stroke-linecap="round"/>
+  <line x1="20" y1="30" x2="12" y2="22" stroke="#ffee58" stroke-width="3" stroke-linecap="round"/>
+  <!-- Nubes capa trasera -->
+  <ellipse cx="300" cy="60" rx="70" ry="30" fill="white" opacity="0.7"/>
+  <ellipse cx="260" cy="60" rx="45" ry="25" fill="white" opacity="0.7"/>
+  <ellipse cx="340" cy="60" rx="45" ry="22" fill="white" opacity="0.7"/>
+  <ellipse cx="200" cy="130" rx="75" ry="32" fill="white" opacity="0.65"/>
+  <ellipse cx="155" cy="130" rx="48" ry="26" fill="white" opacity="0.65"/>
+  <ellipse cx="248" cy="130" rx="48" ry="24" fill="white" opacity="0.65"/>
+  <!-- Nubes capa media -->
+  <ellipse cx="80" cy="200" rx="80" ry="35" fill="white" opacity="0.85"/>
+  <ellipse cx="30" cy="200" rx="50" ry="28" fill="white" opacity="0.85"/>
+  <ellipse cx="140" cy="200" rx="52" ry="26" fill="white" opacity="0.85"/>
+  <ellipse cx="320" cy="220" rx="72" ry="32" fill="white" opacity="0.85"/>
+  <ellipse cx="272" cy="220" rx="46" ry="26" fill="white" opacity="0.85"/>
+  <ellipse cx="372" cy="220" rx="46" ry="24" fill="white" opacity="0.85"/>
+  <!-- Nubes capa frontal -->
+  <ellipse cx="180" cy="320" rx="90" ry="40" fill="white"/>
+  <ellipse cx="110" cy="320" rx="58" ry="32" fill="white"/>
+  <ellipse cx="260" cy="320" rx="58" ry="30" fill="white"/>
+  <!-- Pajaritos -->
+  <path d="M240 95 Q245 90 250 95" stroke="#555" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M256 88 Q261 83 266 88" stroke="#555" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M270 100 Q275 95 280 100" stroke="#555" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Pasto -->
+  <ellipse cx="200" cy="600" rx="250" ry="70" fill="#66bb6a"/>
+  <ellipse cx="0" cy="580" rx="100" ry="50" fill="#81c784"/>
+  <ellipse cx="400" cy="585" rx="100" ry="50" fill="#81c784"/>
+  <!-- Flores -->
+  <circle cx="60" cy="545" r="6" fill="#ef5350"/>
+  <circle cx="60" cy="545" r="3" fill="#fff176"/>
+  <circle cx="100" cy="538" r="5" fill="#ec407a"/>
+  <circle cx="100" cy="538" r="2.5" fill="#fff9c4"/>
+  <circle cx="320" cy="540" r="6" fill="#ef5350"/>
+  <circle cx="320" cy="540" r="3" fill="#fff176"/>
+  <circle cx="355" cy="535" r="5" fill="#ab47bc"/>
+  <circle cx="355" cy="535" r="2.5" fill="#fff9c4"/>
+  <line x1="60" y1="545" x2="60" y2="560" stroke="#4caf50" stroke-width="1.5"/>
+  <line x1="100" y1="538" x2="100" y2="555" stroke="#4caf50" stroke-width="1.5"/>
+  <line x1="320" y1="540" x2="320" y2="558" stroke="#4caf50" stroke-width="1.5"/>
+  <line x1="355" y1="535" x2="355" y2="552" stroke="#4caf50" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="agua" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0288d1"/>
+      <stop offset="35%" stop-color="#0277bd"/>
+      <stop offset="70%" stop-color="#01579b"/>
+      <stop offset="100%" stop-color="#023060"/>
+    </linearGradient>
+    <linearGradient id="suelo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9a825"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#agua)"/>
+  <!-- Rayos de luz desde superficie -->
+  <polygon points="160,0 185,0 240,400 215,400" fill="white" opacity="0.05"/>
+  <polygon points="220,0 245,0 300,400 275,400" fill="white" opacity="0.04"/>
+  <polygon points="90,0 110,0 160,400 140,400" fill="white" opacity="0.035"/>
+  <!-- Superficie del agua (ola) -->
+  <path d="M0,55 Q50,35 100,55 Q150,75 200,55 Q250,35 300,55 Q350,75 400,55 L400,0 L0,0 Z" fill="#4fc3f7" opacity="0.4"/>
+  <!-- Burbujas -->
+  <circle cx="80" cy="150" r="5" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+  <circle cx="200" cy="100" r="3" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+  <circle cx="320" cy="200" r="4" fill="none" stroke="white" stroke-width="1" opacity="0.4"/>
+  <circle cx="150" cy="280" r="6" fill="none" stroke="white" stroke-width="1" opacity="0.35"/>
+  <circle cx="280" cy="330" r="3" fill="none" stroke="white" stroke-width="1" opacity="0.4"/>
+  <circle cx="50" cy="350" r="4" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+  <circle cx="370" cy="250" r="5" fill="none" stroke="white" stroke-width="1" opacity="0.35"/>
+  <!-- Pez grupo 1 -->
+  <ellipse cx="120" cy="180" rx="20" ry="10" fill="#ff7043"/>
+  <polygon points="140,180 155,168 155,192" fill="#ff7043"/>
+  <circle cx="112" cy="177" r="2" fill="white"/>
+  <circle cx="111" cy="177" r="1" fill="#333"/>
+  <!-- Pez grupo 2 -->
+  <ellipse cx="300" cy="260" rx="16" ry="8" fill="#ffb300"/>
+  <polygon points="284,260 269,252 269,268" fill="#ffb300"/>
+  <circle cx="307" cy="258" r="1.5" fill="white"/>
+  <circle cx="306.5" cy="258" r="0.8" fill="#333"/>
+  <!-- Pez pequeño -->
+  <ellipse cx="220" cy="400" rx="12" ry="6" fill="#80cbc4"/>
+  <polygon points="232,400 242,395 242,405" fill="#80cbc4"/>
+  <!-- Medusa -->
+  <ellipse cx="60" cy="320" rx="22" ry="14" fill="#f48fb1" opacity="0.7"/>
+  <line x1="48" y1="334" x2="44" y2="360" stroke="#f48fb1" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+  <line x1="56" y1="334" x2="54" y2="362" stroke="#f48fb1" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+  <line x1="64" y1="334" x2="66" y2="362" stroke="#f48fb1" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+  <line x1="72" y1="334" x2="76" y2="360" stroke="#f48fb1" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+  <!-- Coral -->
+  <path d="M340 540 Q338 510 340 490 Q342 470 344 490 Q346 510 344 540 Z" fill="#e53935" opacity="0.85"/>
+  <path d="M340 510 Q320 500 315 488 Q312 475 325 480 Q335 485 340 500 Z" fill="#e53935" opacity="0.85"/>
+  <path d="M340 500 Q360 490 368 478 Q372 465 358 470 Q348 475 342 490 Z" fill="#e53935" opacity="0.85"/>
+  <!-- Algas -->
+  <path d="M30 600 Q20 570 30 540 Q40 510 30 480 Q20 450 30 420" stroke="#2e7d32" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M380 600 Q392 568 380 536 Q368 504 380 472 Q392 440 380 408" stroke="#388e3c" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M180 600 Q190 575 178 550 Q166 525 178 500" stroke="#43a047" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Suelo arenoso -->
+  <ellipse cx="200" cy="600" rx="260" ry="55" fill="url(#suelo)"/>
+  <ellipse cx="0" cy="595" rx="80" ry="40" fill="#f9a825"/>
+  <ellipse cx="400" cy="590" rx="80" ry="40" fill="#f9a825"/>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="noche" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1b3e"/>
+      <stop offset="55%" stop-color="#1a2a5e"/>
+      <stop offset="100%" stop-color="#243580"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#noche)"/>
+  <!-- Luna creciente (círculo - círculo encima) -->
+  <circle cx="300" cy="90" r="50" fill="#fff9c4"/>
+  <circle cx="326" cy="76" r="44" fill="#1a2a5e"/>
+  <!-- Brillo de luna -->
+  <circle cx="300" cy="90" r="62" fill="#fff9c4" opacity="0.06"/>
+  <!-- Estrellas densas -->
+  <circle cx="30" cy="25" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="65" cy="50" r="1" fill="white" opacity="0.7"/>
+  <circle cx="110" cy="18" r="2" fill="white"/>
+  <circle cx="155" cy="40" r="1" fill="white" opacity="0.8"/>
+  <circle cx="195" cy="12" r="1.5" fill="white"/>
+  <circle cx="240" cy="35" r="1" fill="white" opacity="0.7"/>
+  <circle cx="250" cy="55" r="1.5" fill="white"/>
+  <circle cx="360" cy="45" r="2" fill="white"/>
+  <circle cx="385" cy="20" r="1" fill="white"/>
+  <circle cx="20" cy="80" r="1" fill="white" opacity="0.6"/>
+  <circle cx="75" cy="100" r="1.5" fill="white"/>
+  <circle cx="120" cy="78" r="1" fill="white" opacity="0.8"/>
+  <circle cx="165" cy="105" r="2" fill="white"/>
+  <circle cx="205" cy="82" r="1" fill="white" opacity="0.7"/>
+  <circle cx="255" cy="98" r="1.5" fill="white"/>
+  <circle cx="295" cy="138" r="1" fill="white" opacity="0.9"/>
+  <circle cx="355" cy="108" r="2" fill="white"/>
+  <circle cx="50" cy="145" r="1.5" fill="white"/>
+  <circle cx="95" cy="165" r="1" fill="white" opacity="0.8"/>
+  <circle cx="140" cy="142" r="2" fill="white"/>
+  <circle cx="185" cy="160" r="1" fill="white" opacity="0.7"/>
+  <circle cx="232" cy="145" r="1.5" fill="white"/>
+  <circle cx="278" cy="168" r="1" fill="white"/>
+  <circle cx="325" cy="160" r="2" fill="white" opacity="0.9"/>
+  <circle cx="372" cy="148" r="1.5" fill="white"/>
+  <circle cx="38" cy="210" r="1" fill="white" opacity="0.6"/>
+  <circle cx="82" cy="228" r="1.5" fill="white"/>
+  <circle cx="126" cy="205" r="1" fill="white" opacity="0.8"/>
+  <circle cx="168" cy="222" r="2" fill="white"/>
+  <circle cx="212" cy="208" r="1" fill="white" opacity="0.7"/>
+  <!-- ZZZ flotantes -->
+  <text x="55" y="140" font-family="Arial" font-size="18" font-weight="bold" fill="white" opacity="0.40">Z</text>
+  <text x="72" y="118" font-family="Arial" font-size="14" font-weight="bold" fill="white" opacity="0.30">Z</text>
+  <text x="85" y="100" font-family="Arial" font-size="10" font-weight="bold" fill="white" opacity="0.22">Z</text>
+  <text x="200" y="170" font-family="Arial" font-size="16" font-weight="bold" fill="white" opacity="0.35">Z</text>
+  <text x="215" y="152" font-family="Arial" font-size="12" font-weight="bold" fill="white" opacity="0.25">Z</text>
+  <!-- Estrella fugaz -->
+  <line x1="100" y1="80" x2="155" y2="108" stroke="white" stroke-width="1.5" opacity="0.65" stroke-linecap="round"/>
+  <circle cx="100" cy="80" r="2" fill="white"/>
+  <!-- Buho silueta -->
+  <ellipse cx="355" cy="400" rx="18" ry="22" fill="#0d1b3e" stroke="#4fc3f7" stroke-width="1" opacity="0.7"/>
+  <circle cx="348" cy="392" r="6" fill="#0d1b3e" stroke="#4fc3f7" stroke-width="1" opacity="0.7"/>
+  <circle cx="362" cy="392" r="6" fill="#0d1b3e" stroke="#4fc3f7" stroke-width="1" opacity="0.7"/>
+  <circle cx="348" cy="393" r="3" fill="#f9a825" opacity="0.8"/>
+  <circle cx="362" cy="393" r="3" fill="#f9a825" opacity="0.8"/>
+  <polygon points="355,398 351,404 359,404" fill="#ff9800" opacity="0.7"/>
+  <!-- Siluetas de colinas -->
+  <ellipse cx="0" cy="575" rx="170" ry="100" fill="#0a1530"/>
+  <ellipse cx="200" cy="590" rx="220" ry="88" fill="#091225"/>
+  <ellipse cx="400" cy="570" rx="155" ry="105" fill="#0a1530"/>
+  <!-- Árboles silueta -->
+  <path d="M40 530 L58 485 L76 530 Z" fill="#070f20"/>
+  <rect x="56" y="530" width="4" height="40" fill="#070f20"/>
+  <path d="M330 525 L350 478 L370 525 Z" fill="#070f20"/>
+  <rect x="348" y="525" width="4" height="42" fill="#070f20"/>
+  <!-- Luciérnagas -->
+  <circle cx="120" cy="460" r="2.5" fill="#f9a825" opacity="0.75"/>
+  <circle cx="120" cy="460" r="6" fill="#f9a825" opacity="0.12"/>
+  <circle cx="250" cy="480" r="2.5" fill="#f9a825" opacity="0.75"/>
+  <circle cx="250" cy="480" r="6" fill="#f9a825" opacity="0.12"/>
+  <circle cx="180" cy="510" r="2" fill="#f9a825" opacity="0.65"/>
+  <circle cx="290" cy="440" r="2" fill="#a5d6a7" opacity="0.65"/>
+</svg>

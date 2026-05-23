@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0528"/>
+      <stop offset="60%" stop-color="#1a0a4a"/>
+      <stop offset="100%" stop-color="#2d1b6e"/>
+    </linearGradient>
+    <radialGradient id="aurora" cx="50%" cy="100%" r="70%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0a0528" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#sky)"/>
+  <ellipse cx="200" cy="600" rx="300" ry="250" fill="url(#aurora)"/>
+  <circle cx="45" cy="30" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="80" cy="55" r="1" fill="white" opacity="0.7"/>
+  <circle cx="130" cy="20" r="2" fill="white"/>
+  <circle cx="175" cy="45" r="1" fill="white" opacity="0.8"/>
+  <circle cx="220" cy="18" r="1.5" fill="white"/>
+  <circle cx="265" cy="38" r="1" fill="white" opacity="0.7"/>
+  <circle cx="310" cy="15" r="2" fill="white"/>
+  <circle cx="350" cy="50" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="380" cy="25" r="1" fill="white"/>
+  <circle cx="30" cy="80" r="1" fill="white" opacity="0.6"/>
+  <circle cx="70" cy="105" r="1.5" fill="white"/>
+  <circle cx="115" cy="85" r="1" fill="white" opacity="0.8"/>
+  <circle cx="160" cy="110" r="2" fill="white"/>
+  <circle cx="200" cy="75" r="1" fill="white" opacity="0.7"/>
+  <circle cx="245" cy="95" r="1.5" fill="white"/>
+  <circle cx="290" cy="70" r="1" fill="white" opacity="0.9"/>
+  <circle cx="340" cy="90" r="2" fill="white"/>
+  <circle cx="55" cy="140" r="1.5" fill="white"/>
+  <circle cx="140" cy="145" r="2" fill="white"/>
+  <circle cx="185" cy="168" r="1" fill="white" opacity="0.7"/>
+  <circle cx="230" cy="140" r="1.5" fill="white"/>
+  <circle cx="315" cy="135" r="2" fill="white" opacity="0.9"/>
+  <circle cx="360" cy="165" r="1.5" fill="white"/>
+  <path d="M50 200 L52 207 L59 209 L52 211 L50 218 L48 211 L41 209 L48 207 Z" fill="white" opacity="0.85"/>
+  <path d="M330 120 L332 127 L339 129 L332 131 L330 138 L328 131 L321 129 L328 127 Z" fill="#ffd700" opacity="0.9"/>
+  <path d="M180 195 L181.5 200 L187 201.5 L181.5 203 L180 208 L178.5 203 L173 201.5 L178.5 200 Z" fill="white" opacity="0.8"/>
+  <line x1="100" y1="180" x2="140" y2="200" stroke="white" stroke-width="0.7" opacity="0.4"/>
+  <line x1="140" y1="200" x2="160" y2="175" stroke="white" stroke-width="0.7" opacity="0.4"/>
+  <line x1="160" y1="175" x2="120" y2="165" stroke="white" stroke-width="0.7" opacity="0.4"/>
+  <circle cx="100" cy="180" r="2" fill="white" opacity="0.9"/>
+  <circle cx="140" cy="200" r="2" fill="white" opacity="0.9"/>
+  <circle cx="160" cy="175" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="120" cy="165" r="2" fill="white" opacity="0.9"/>
+  <circle cx="320" cy="80" r="42" fill="#fffde7"/>
+  <circle cx="344" cy="67" r="36" fill="#1a0a4a"/>
+  <circle cx="320" cy="80" r="55" fill="#fffde7" opacity="0.07"/>
+  <line x1="60" y1="130" x2="120" y2="155" stroke="white" stroke-width="1.5" opacity="0.7" stroke-linecap="round"/>
+  <circle cx="60" cy="130" r="2" fill="white" opacity="0.9"/>
+  <ellipse cx="0" cy="580" rx="160" ry="90" fill="#120840"/>
+  <ellipse cx="200" cy="595" rx="220" ry="85" fill="#0e0630"/>
+  <ellipse cx="400" cy="575" rx="150" ry="95" fill="#120840"/>
+  <path d="M30 530 L50 488 L70 530 Z" fill="#0b0520"/>
+  <rect x="48" y="530" width="4" height="35" fill="#0b0520"/>
+  <path d="M340 520 L362 476 L384 520 Z" fill="#0b0520"/>
+  <rect x="360" y="520" width="4" height="38" fill="#0b0520"/>
+</svg>

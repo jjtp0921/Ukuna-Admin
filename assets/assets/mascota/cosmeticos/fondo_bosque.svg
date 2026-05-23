@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="cieloB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b3e5fc"/>
+      <stop offset="50%" stop-color="#c8e6c9"/>
+      <stop offset="100%" stop-color="#a5d6a7"/>
+    </linearGradient>
+    <linearGradient id="sueloB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66bb6a"/>
+      <stop offset="100%" stop-color="#388e3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#cieloB)"/>
+  <!-- Sol -->
+  <circle cx="320" cy="60" r="38" fill="#fff9c4"/>
+  <circle cx="320" cy="60" r="28" fill="#fff176"/>
+  <line x1="320" y1="10" x2="320" y2="0" stroke="#fff176" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="358" y1="22" x2="365" y2="15" stroke="#fff176" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="370" y1="60" x2="380" y2="60" stroke="#fff176" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="358" y1="98" x2="365" y2="105" stroke="#fff176" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="282" y1="22" x2="275" y2="15" stroke="#fff176" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="270" y1="60" x2="260" y2="60" stroke="#fff176" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Árboles lejanos (capa 1) -->
+  <polygon points="20,320 50,230 80,320" fill="#81c784"/>
+  <polygon points="60,330 90,240 120,330" fill="#66bb6a"/>
+  <polygon points="300,320 330,230 360,320" fill="#81c784"/>
+  <polygon points="340,330 370,245 400,330" fill="#66bb6a"/>
+  <rect x="47" y="318" width="6" height="50" fill="#795548"/>
+  <rect x="87" y="328" width="6" height="45" fill="#795548"/>
+  <rect x="327" y="318" width="6" height="50" fill="#795548"/>
+  <rect x="367" y="328" width="6" height="48" fill="#795548"/>
+  <!-- Árboles medianos (capa 2) -->
+  <polygon points="130,360 165,255 200,360" fill="#4caf50"/>
+  <polygon points="200,355 235,260 270,355" fill="#43a047"/>
+  <rect x="162" y="355" width="8" height="60" fill="#5d4037"/>
+  <rect x="232" y="350" width="8" height="62" fill="#5d4037"/>
+  <!-- Árbol frontal izquierdo -->
+  <polygon points="0,420 45,290 90,420" fill="#2e7d32"/>
+  <rect x="40" y="415" width="10" height="80" fill="#4e342e"/>
+  <!-- Árbol frontal derecho -->
+  <polygon points="310,410 358,278 406,410" fill="#388e3c"/>
+  <rect x="353" y="405" width="10" height="85" fill="#4e342e"/>
+  <!-- Hongo -->
+  <ellipse cx="150" cy="490" rx="20" ry="10" fill="#ef5350"/>
+  <rect x="146" y="490" width="8" height="18" fill="#f5f5f5"/>
+  <circle cx="144" cy="484" r="3" fill="white" opacity="0.7"/>
+  <circle cx="155" cy="482" r="2.5" fill="white" opacity="0.7"/>
+  <circle cx="162" cy="486" r="2" fill="white" opacity="0.7"/>
+  <!-- Flores -->
+  <circle cx="220" cy="510" r="7" fill="#ffee58"/>
+  <circle cx="220" cy="510" r="3.5" fill="#ff8f00"/>
+  <circle cx="240" cy="505" r="6" fill="#f48fb1"/>
+  <circle cx="240" cy="505" r="3" fill="#e91e63"/>
+  <!-- Mariposa -->
+  <ellipse cx="190" cy="350" rx="10" ry="6" fill="#ff80ab" opacity="0.8" transform="rotate(-20 190 350)"/>
+  <ellipse cx="200" cy="350" rx="10" ry="6" fill="#ff80ab" opacity="0.8" transform="rotate(20 200 350)"/>
+  <line x1="195" y1="346" x2="195" y2="354" stroke="#333" stroke-width="1"/>
+  <!-- Luciérnagas -->
+  <circle cx="110" cy="400" r="2.5" fill="#f9a825" opacity="0.7"/>
+  <circle cx="110" cy="400" r="5" fill="#f9a825" opacity="0.15"/>
+  <circle cx="280" cy="420" r="2.5" fill="#f9a825" opacity="0.7"/>
+  <circle cx="280" cy="420" r="5" fill="#f9a825" opacity="0.15"/>
+  <circle cx="170" cy="440" r="2" fill="#f9a825" opacity="0.6"/>
+  <!-- Suelo con pasto -->
+  <rect x="0" y="500" width="400" height="100" fill="url(#sueloB)"/>
+  <ellipse cx="200" cy="500" rx="260" ry="30" fill="#81c784"/>
+</svg>
